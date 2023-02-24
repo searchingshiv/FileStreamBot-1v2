@@ -144,3 +144,5 @@ async def start(b, m):
         chat_id=m.chat.id,
         text=f"Your ID is: `{m.chat.id}`"
     )
+Bot=start()
+Bot.run()
